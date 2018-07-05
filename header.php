@@ -14,8 +14,8 @@
 
  
       <li class="nav-item">
-        <a class="nav-link" href="create.php">Add </a>
-        <a class="nav-link" href="form_builder.php">Home </a>
+      
+        <a  style="width: 69px;" class="nav-link btn btn-danger" href="form_builder.php">Back </a>
         
       </li>
       

@@ -146,10 +146,10 @@ if(isset($_POST["submit"]))
             <div class="navbar-right">
                 <ul class="nav navbar-nav">
                     <li class="dropdown messages-menu">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                       <!--  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                             <i class="livicon" data-name="message-flag" data-loop="true" data-color="#42aaca" data-hovercolor="#42aaca" data-size="28"></i>
                             <span class="label label-success">4</span>
-                        </a>
+                        </a> -->
                         <ul class="dropdown-menu dropdown-messages pull-right">
                             <li class="dropdown-title">4 New Messages</li>
                             <li class="unread message">
@@ -160,40 +160,40 @@ if(isset($_POST["submit"]))
                                         <br> <small>8 minutes ago</small> </div>
                                 </a>
                             </li>
-                            <li class="unread message">
+                            <!-- <li class="unread message">
                                 <a href="javascript:;" class="message"> <i class="pull-right" data-toggle="tooltip" data-placement="top" title="Mark as Read"><span class="pull-right ol livicon" data-n="adjust" data-s="10" data-c="#287b0b"></span></i>
                                     <img src="img/authors/avatar1.jpg" class="img-responsive message-image" alt="icon" />
                                     <div class="message-body"> <strong>John Kerry</strong>
                                         <br>Can we Meet ?
                                         <br> <small>45 minutes ago</small> </div>
                                 </a>
-                            </li>
-                            <li class="unread message">
+                            </li> -->
+                           <!--  <li class="unread message">
                                 <a href="javascript:;" class="message"> <i class="pull-right" data-toggle="tooltip" data-placement="top" title="Mark as Read">                                         <span class="pull-right ol livicon" data-n="adjust" data-s="10" data-c="#287b0b"></span>                                     </i>
                                     <img src="img/authors/avatar5.jpg" class="img-responsive message-image" alt="icon" />
                                     <div class="message-body"> <strong>Jenny Kerry</strong>
                                         <br>Dont forgot to call...
                                         <br> <small>An hour ago</small> </div>
                                 </a>
-                            </li>
-                            <li class="unread message">
+                            </li> -->
+                            <!-- <li class="unread message">
                                 <a href="javascript:;" class="message"> <i class="pull-right" data-toggle="tooltip" data-placement="top" title="Mark as Read">                                         <span class="pull-right ol livicon" data-n="adjust" data-s="10" data-c="#287b0b"></span>                                     </i>
                                     <img src="img/authors/avatar4.jpg" class="img-responsive message-image" alt="icon" />
                                     <div class="message-body"> <strong>Ronny</strong>
                                         <br>Hey! sup Dude?
                                         <br> <small>3 Hours ago</small> </div>
                                 </a>
-                            </li>
+                            </li> -->
                             <li class="footer">
                                 <a href="#">View all</a>
                             </li>
                         </ul>
                     </li>
                     <li class="dropdown notifications-menu">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                     <!--    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                             <i class="livicon" data-name="bell" data-loop="true" data-color="#e9573f" data-hovercolor="#e9573f" data-size="28"></i>
                             <span class="label label-warning">7</span>
-                        </a>
+                        </a> -->
                         <ul class=" notifications dropdown-menu">
                             <li class="dropdown-title">You have 7 notifications</li>
                             <li>
@@ -264,7 +264,9 @@ if(isset($_POST["submit"]))
                     </li>
                     <li class="dropdown user user-menu">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                            <img src="img/authors/avatar3.jpg" width="35" class="img-circle img-responsive pull-left" height="35" alt="riot">
+                            <img src="img/authors/avatar3.jpg" width="35" class="img-circle img-responsive pull-left" height="35" alt="rio
+
+                            t">
                             <div class="riot">
                                 <div>
                                  <p>Welcome <strong><?php echo $_SESSION['username']; ?></strong></p>
@@ -278,7 +280,7 @@ if(isset($_POST["submit"]))
                             <!-- User image -->
                             <li class="user-header bg-light-blue">
                                 <img src="img/authors/avatar3.jpg" width="90" class="img-circle img-responsive" height="90" alt="User Image" />
-                                <p class="topprofiletext">Riot Zeast</p>
+                                <p class="topprofiletext">Admin</p>
                             </li>
                             <!-- Menu Body -->
                             <li>
@@ -350,13 +352,13 @@ if(isset($_POST["submit"]))
                         <li>
                             <a href="#">
                                 <i class="livicon" data-name="doc-portrait" data-c="#5bc0de" data-hc="#5bc0de" data-size="18" data-loop="true"></i>
-                                <span class="title">MF1 Feeder</span>
+                                <span class="title">Graph</span>
                                 <span class="fa arrow"></span>
                             </a>
                             <ul class="sub-menu">
                                 <li>
                                     <a href="form_examples.php">
-                                        <i class="fa fa-angle-double-right"></i> Graph
+                                        <i class="fa fa-angle-double-right"></i> MF1 Feeder
                                     </a>
                                 </li>
                                </ul>
@@ -491,7 +493,9 @@ if(isset($_POST["submit"]))
     <td>
         
     </td>
-</tr>            <p>Delete all data:</p>
+</tr>        
+
+                        <p>Delete all data:</p>
  
 
 
@@ -520,7 +524,7 @@ $people = $statement->fetchAll(PDO::FETCH_OBJ);
       <table class="table table-bordered">
         <tr>
           <th>ID</th>
-          <th>Name</th>
+          <th> Name</th>
           <th>Status</th>
           <th>Action</th>
         </tr>

@@ -220,37 +220,22 @@ $chart_data = substr($chart_data, 0, -2);
                                        Upload Data
                                     </a>
                                 </li>
-                                <li>
-                                    <a href="form_builder2.html">
-                                        <i class="fa fa-angle-double-right"></i>
-                                        Form Builder 2
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="buttonbuilder.html">
-                                        <i class="fa fa-angle-double-right"></i>
-                                        Button Builder
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="page_builder.html">
-                                        <i class="fa fa-angle-double-right"></i>
-                                        Page Builder
-                                    </a>
-                                </li>
+                               
+
+
                             </ul>
                         </li>
                         <li class="active">
                             <a href="#">
                                 <i class="livicon" data-name="doc-portrait" data-c="#5bc0de" data-hc="#5bc0de" data-size="18" data-loop="true"></i>
-                                <span class="title">MF1 Feeder</span>
+                                <span class="title">Graph</span>
                                 <span class="fa arrow"></span>
                             </a>
                             <ul class="sub-menu">
                                 <li class="active" id="active">
                                     <a href="form_examples.php">
                                         <i class="fa fa-angle-double-right"></i>
-                                        Graph 1
+                                        MF1 Feeder
                                     </a>
                                 </li>
                                 

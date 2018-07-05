@@ -85,20 +85,15 @@
             <div class="navbar-right">
                 <ul class="nav navbar-nav">
                     <li class="dropdown messages-menu">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <i class="livicon" data-name="message-flag" data-loop="true" data-color="#42aaca" data-hovercolor="#42aaca" data-size="28"></i>
+                       <!--  <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <i class="livicon" data-name="message-flag" data-loop="true" data-color="#42aaca" data-hovercolor="#42aaca" data-size="28"></i>
                             <span class="label label-success">4</span>
-                        </a>
+                        </a> -->
                         <ul class="dropdown-menu dropdown-messages pull-right">
                             <li class="dropdown-title">4 New Messages</li>
                             <li class="unread message">
                                 <a href="javascript:;" class="message"> <i class="pull-right" data-toggle="tooltip" data-placement="top" title="Mark as Read"><span class="pull-right ol livicon" data-n="adjust" data-s="10" data-c="#287b0b"></span></i>
                                     <img src="img/authors/avatar.jpg" class="img-responsive message-image" alt="icon" />
-                                    <div class="message-body">
-                                        <strong>Riot Zeast</strong>
-                                        <br>Hello, You there?
-                                        <br>
-                                        <small>8 minutes ago</small>
-                                    </div>
+                                   
                                 </a>
                             </li>
                             <li class="unread message">
@@ -146,11 +141,11 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="dropdown notifications-menu">
+             <!--        <li class="dropdown notifications-menu">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                             <i class="livicon" data-name="bell" data-loop="true" data-color="#e9573f" data-hovercolor="#e9573f" data-size="28"></i>
                             <span class="label label-warning">7</span>
-                        </a>
+                        </a> -->
                         <ul class=" notifications dropdown-menu">
                             <li class="dropdown-title">You have 7 notifications</li>
                             <li>
@@ -235,32 +230,41 @@
                             <!-- User image -->
                             <li class="user-header bg-light-blue">
                                 <img src="img/authors/avatar3.jpg" width="90" class="img-circle img-responsive" height="90" alt="User Image" />
-                                <p class="topprofiletext">Riot Zeast</p>
+                                <p class="topprofiletext">Admin</p>
                             </li>
                             <!-- Menu Body -->
+
+
+
+
                             <li>
-                                <a href="view_user.html">
-                                    <i class="livicon" data-name="user" data-s="18"></i> My Profile
+                                <a href="index.php">
+                                    <i class="livicon" data-name="user" data-s="18"></i> Dashboard
                                 </a>
                             </li>
                             <li role="presentation"></li>
                             <li>
-                                <a href="adduser.html">
+                               <!--  <a href="adduser.html">
                                     <i class="livicon" data-name="gears" data-s="18"></i> Account Settings
-                                </a>
+                                </a> -->
                             </li>
                             <!-- Menu Footer-->
                             <li class="user-footer">
-                                <div class="pull-left">
+                              <!--   <div class="pull-left">
                                     <a href="lockscreen.php">
                                         <i class="livicon" data-name="lock" data-s="18"></i> Lock
                                     </a>
                                 </div>
-                                <div class="pull-right">
+ -->                                <div class="pull-right">
                                    <a href="index.php?logout='1'" style="color: red;">logout</a> </p>
                                        
                                     </a>
+
+
+
                                 </div>
+
+
                             </li>
                         </ul>
                     </li>
@@ -325,17 +329,20 @@
                         <li>
                             <a href="#">
                                 <i class="livicon" data-name="doc-portrait" data-c="#5bc0de" data-hc="#5bc0de" data-size="18" data-loop="true"></i>
-                                <span class="title">MF1 Feeder</span>
+                                <span class="title">Graph</span>
                                 <span class="fa arrow"></span>
                             </a>
                             <ul class="sub-menu">
                                 <li>
                                     <a href="form_examples.php">
-                                        <i class="fa fa-angle-double-right"></i> Graph
+                                        <i class="fa fa-angle-double-right"></i> MF1 Feeder
                                     </a>
                                 </li>
                             </ul>
                         </li>
+
+
+
 
 
 
@@ -347,148 +354,36 @@
                                 <span class="title">Register User</span>
                                
                             </a>
-                           
-                              
+                        </li>
 
 
 
+                    </ul>
+                    </div>
 
 
+                </section>
 
 
+            </aside>
 
+                                 <h1 style="text-align: right; text-shadow: 3px 2px black; ">Welcome to EnergySystemManagementSoftware</h1>
 
+                                 <img style="display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;" src="meter.png" alt="Italian Trulli">
+        </div>
 
-
-
-
-
-                        <li>
                        
-                            <ul class="sub-menu">
-                                <li>
-                                    <a href="animatedicons.html">
-                                        <i class="fa fa-angle-double-right"></i> Animated Icons
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="buttons.html">
-                                        <i class="fa fa-angle-double-right"></i> Buttons
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="advanced_buttons.html">
-                                        <i class="fa fa-angle-double-right"></i> Advanced Buttons
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="tabs_accordions.html">
-                                        <i class="fa fa-angle-double-right"></i> Tabs and Accordions
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="panels.html">
-                                        <i class="fa fa-angle-double-right"></i> Panels
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="icon.html">
-                                        <i class="fa fa-angle-double-right"></i> Font Icons
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="color.html">
-                                        <i class="fa fa-angle-double-right"></i> Color Picker Slider
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="grid.html">
-                                        <i class="fa fa-angle-double-right"></i> Grid Layout
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="carousel.html">
-                                        <i class="fa fa-angle-double-right"></i> Carousel
-                                    </a>
-                                </li>
-                                <li>                                     <a href="advanced_modals.html">                                         <i class="fa fa-angle-double-right"></i> Advanced Modals                                     </a>                                 </li>                                 <li>                                     <a href="tagsinput.html"> <i class="fa fa-angle-double-right"></i> Tags Input </a>                                 </li>                                 <li>                                     <a href="nestable_list.html">                                         <i class="fa fa-angle-double-right"></i> Nestable List                                     </a>                                 </li>
-                                <li>
-                                    <a href="sortable_list.html">
-                                        <i class="fa fa-angle-double-right"></i> Sortable List
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="treeview_jstree.html">
-                                        <i class="fa fa-angle-double-right"></i> Treeview and jsTree
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="toastr_notification.html">
-                                        <i class="fa fa-angle-double-right"></i> Toastr Notifications
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="sweetalert.html">
-                                        <i class="fa fa-angle-double-right"></i> Sweet Alert
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="notifications.html">
-                                        <i class="fa fa-angle-double-right"></i> Notifications
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="session_timeout.html">
-                                        <i class="fa fa-angle-double-right"></i> Session Timeout
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="portlet_draggable.html">
-                                        <i class="fa fa-angle-double-right"></i> Draggable Portlets
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                         
-                            <ul class="sub-menu">
-                                <li>
-                                    <a href="general.html">
-                                        <i class="fa fa-angle-double-right"></i> General Components
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="pickers.html">
-                                        <i class="fa fa-angle-double-right"></i> Pickers
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="x-editable.html">
-                                        <i class="fa fa-angle-double-right"></i> X-editable
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="timeline.html">
-                                        <i class="fa fa-angle-double-right"></i> Timeline
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="transitions.html">
-                                        <i class="fa fa-angle-double-right"></i> Transitions
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="sliders.html">
-                                        <i class="fa fa-angle-double-right"></i> Sliders
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="knob.html">
-                                        <i class="fa fa-angle-double-right"></i> Circles Sliders
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
+
+
+
+
+
+
+
+
                        
 
 
